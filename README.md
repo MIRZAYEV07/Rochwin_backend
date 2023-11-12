@@ -4,6 +4,28 @@ Rest Api built with Django Rest Framework. The main functionalities are to save 
 
 ----
 
+
+
+
+Folder Structure Conventions
+============================
+
+> Folder structure options and naming conventions for the current project
+
+### A typical top-level directory layout
+
+    .
+    ├── .envs                   # Environment veriables
+    ├── core                    # Project configuration files
+    ├── main                    # Project applicateions directory ('apps'>client|employee|order|product|statistic) 
+    ├── docker-compose.yaml     # docker-compose (running in local)
+    ├── Dockerfile.yml 
+    ├── requirements.txt
+    └── README.md
+
+
+----
+
 ## How to use it
 `GET` List of products:
 ```
@@ -131,7 +153,6 @@ Payload:
    "sales_amount": 39454.00
 }
 ```
-
 
  
 
