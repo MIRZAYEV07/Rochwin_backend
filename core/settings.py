@@ -47,6 +47,9 @@ INSTALLED_APPS = [
 
     #Local apps
     "main.apps.product.apps.ProductConfig",
+    "main.apps.employee.apps.EmployeeConfig",
+    "main.apps.client.apps.ClientConfig",
+    "main.apps.order.apps.OrderConfig",
 ]
 
 MIDDLEWARE = [
