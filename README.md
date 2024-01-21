@@ -1,4 +1,4 @@
-   ## Rest API for Rochwin task
+   ## Rest API for Rochwin 
 Rest Api built with Django Rest Framework. The main functionalities are to save and represent data about product , employee , client, statistcs and individual statistics of every clients and employees , statistics of most active employees who sold most products.
 
 
